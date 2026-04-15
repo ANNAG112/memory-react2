@@ -1,5 +1,5 @@
 header {
-    background-color: lavender;
+    background-color: #cd93fc;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -13,6 +13,6 @@ header {
 }
 
 .link--active {
-    color:red;
+    color:rgb(115, 101, 238);
     font-weight: bold;
 }

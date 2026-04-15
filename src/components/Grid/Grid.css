@@ -1,8 +1,23 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
+    max-width: 300px;
     justify-content: center;
-    gap: 50px;
-    margin: 50px auto;
+    gap: 10px;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+@media (max-widtH: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        max-width: 100%;
+    }
 }

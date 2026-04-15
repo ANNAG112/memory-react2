@@ -11,10 +11,10 @@ button:focus {
 }
 
 .red {
-    background: lightcoral;
+    background: rgb(167, 128, 240);
 }
 .green {
-    background: lightgreen;
+    background: rgb(67, 126, 253);
 }
 .blue {
     background: lightblue;
